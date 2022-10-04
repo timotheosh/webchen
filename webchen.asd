@@ -6,10 +6,12 @@
                #:unix-opts
                #:hunchentoot
                #:easy-routes
-               #:trivial-signal)
+               #:trivial-signal
+               #:cl-who)
   :components ((:module "src"
                 :components
-                ((:file "main"))))
+                ((:file "main")
+                 (:file "routes"))))
   :description ""
   :in-order-to ((test-op (test-op "webchen/tests")))
   :build-operation "asdf:program-op"
