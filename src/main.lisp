@@ -19,6 +19,5 @@
 (defun -main (&rest args)
   (declare (ignorable args))
   (setf (signal-handler :term) #'exit-on-signal)
-  (setf (signal-handler :))
   (format t "Hello, world!~%")
   (loop (sleep 3)))
