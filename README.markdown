@@ -1,0 +1,17 @@
+# Webchen
+
+## Usage
+
+## Installation
+
+## Author
+
+* Tim Hawes (trhawes@gmail.com)
+
+## Copyright
+
+Copyright (c) 2022 Tim Hawes (trhawes@gmail.com)
+
+## License
+
+Licensed under the MIT License.
