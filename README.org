@@ -1,8 +1,14 @@
 * Webchen 
-
+This is a simple huchentoot web application that compiles to a native binary.
 ** Usage
-
-** Installation
+This code is only compatible with SBCL.
+#+begin_src shell
+git clone https://github.com/timotheosh/webchen.git
+cd webchen
+./build.sh
+./target/webchen --bind localhost --port 8080
+#+end_src
+Open a web browser to http://localhost:8080
 
 ** Author
 
